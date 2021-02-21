@@ -12,6 +12,6 @@ content = SerialValues.read_serial
 For reading serial with time since reading execution
 
 ```python
-content = SerialValues.read_serial_and_time
+content, content_time = SerialValues.read_serial_and_time
 ```
 
