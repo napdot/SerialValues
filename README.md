@@ -12,12 +12,12 @@ mySerialValues = SerialValues(port='/dev/ttyS#', baudrate=9600 )
 For reading serial.
 
 ```python
-content = SerialValues.read_serial
+content = mySerialValues.read_serial
 ```
 
 For reading serial with time since reading execution
 
 ```python
-content, content_time = SerialValues.read_serial_and_time
+content, content_time = mySerialValues.read_serial_and_time
 ```
 
