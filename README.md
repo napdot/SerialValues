@@ -3,6 +3,12 @@ Simple python class for reading serial input
 
 ## Usage
 
+Starting the class
+
+```python
+mySerialValues = SerialValues(port='/dev/ttyS#', baudrate=9600 )
+```
+
 For reading serial.
 
 ```python
